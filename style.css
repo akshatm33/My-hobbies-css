@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-*{
-    padding: 10;
-    margin: 10;
+/* Apply default padding and margin to all elements */
+* {
+    padding: 10px;
+    margin: 10px;
 }
 
-body{
+/* Body styles */
+body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: rgb(49, 156, 192);
 }
 
-h1{
+/* Header styles */
+.header {
     text-align: center; 
     color: black;
     background-color: green;
 }
-ol{
+
+/* List styles */
+.list {
     font-family: 'Roboto Condensed', sans-serif;
     color: yellow;
 }
