@@ -1,26 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-/* Apply default padding and margin to all elements */
 * {
     padding: 10px;
     margin: 10px;
 }
 
-/* Body styles */
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: rgb(49, 156, 192);
 }
 
-/* Header styles */
 .header {
     text-align: center; 
     color: black;
     background-color: green;
 }
 
-/* List styles */
-.list {
+ol {
     font-family: 'Roboto Condensed', sans-serif;
     color: yellow;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+ol li img {
+    display: block;
+    margin: 0 auto;
+}
+
+ol li:first-of-type {
+    font-weight: bold;
+}
+
+ol li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+ol li img[src]:not([src]) {
+    border: 2px solid black;
+}
+
+ol li img:not([src]) {
+    display: none;
 }
